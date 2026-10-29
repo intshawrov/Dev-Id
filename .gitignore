@@ -1,24 +1,24 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependencies
+/node_modules
 
-node_modules
-dist
-dist-ssr
-*.local
+# Build output
+/dist
 
-# Editor directories and files
+# Local env files (real values live here; Vercel vars are set in its dashboard)
+.env
+.env.local
+.env.*.local
+
+# Editor / OS noise
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Vite cache
+.vite

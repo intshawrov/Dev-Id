@@ -1,4 +1,4 @@
-import { NAV_LINKS, SOCIALS } from '../data/portfolio'
+import { SOCIALS } from '../data/portfolio'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -13,12 +13,12 @@ export default function Footer() {
               S
             </span>
             <span className="font-display font-semibold text-white">
-              Shawrov<span className="text-gradient">.dev</span>
+              Shaw<span className="text-gradient">rov</span>
             </span>
           </a>
 
           {/* Quick links */}
-          <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-slate-400">
+          {/* <ul className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-slate-400">
             {NAV_LINKS.map((link) => (
               <li key={link.id}>
                 <a href={`#${link.id}`} className="transition hover:text-white">
@@ -26,7 +26,7 @@ export default function Footer() {
                 </a>
               </li>
             ))}
-          </ul>
+          </ul> */}
 
           {/* Socials */}
           <div className="flex items-center gap-2.5">

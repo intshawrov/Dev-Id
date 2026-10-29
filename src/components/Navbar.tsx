@@ -32,7 +32,7 @@ export default function Navbar() {
             S
           </span>
           <span className="font-display text-lg font-semibold text-white">
-            Shawrov<span className="text-gradient">.dev</span>
+            Shaw<span className="text-gradient">rov</span>
           </span>
         </a>
 

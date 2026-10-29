@@ -43,7 +43,9 @@ export const PROFILE = {
   role: 'Frontend Developer',
   tagline:
     'I design and build fast, accessible, pixel-perfect web interfaces with React, TypeScript and Tailwind CSS — turning ideas into delightful products.',
-  contactEmail: 'shawrov@example.com',
+  /* Single source of truth: set VITE_CONTACT_EMAIL in .env (or in Vercel's
+     Environment Variables). Falls back to the real address below. */
+  contactEmail: import.meta.env.VITE_CONTACT_EMAIL ?? 'mirshawrovislam@gmail.com',
 }
 
 export const NAV_LINKS: NavLink[] = [
@@ -56,9 +58,9 @@ export const NAV_LINKS: NavLink[] = [
 ]
 
 export const SOCIALS: Social[] = [
-  { label: 'GitHub', href: 'https://github.com/', icon: FaGithub },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: FaLinkedinIn },
-  { label: 'Facebook', href: 'https://www.facebook.com/', icon: FaFacebookF },
+  { label: 'GitHub', href: 'https://github.com/intshawrov', icon: FaGithub },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/intshawrov/', icon: FaLinkedinIn },
+  { label: 'Facebook', href: 'https://www.facebook.com/mirshawrov.islam.3', icon: FaFacebookF },
 ]
 
 export const STATS: Stat[] = [
@@ -69,7 +71,7 @@ export const STATS: Stat[] = [
 
 export const ABOUT_INFO: InfoPoint[] = [
   { label: 'Name', value: 'Shawrov' },
-  { label: 'Email', value: 'shawrov@example.com' },
+  { label: 'Email', value: PROFILE.contactEmail },
   { label: 'Location', value: 'Dhaka, Bangladesh' },
   { label: 'Availability', value: 'Open to work' },
 ]
@@ -122,54 +124,23 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCE: TimelineItem[] = [
   {
     title: 'Frontend Developer',
-    org: 'Freelance',
-    period: '2024 — Present',
-    points: [
-      'Built responsive client sites and dashboards with React and Tailwind CSS.',
-      'Improved load times with code-splitting, lazy loading and asset optimization.',
-    ],
-  },
-  {
-    title: 'Web Development Intern',
-    org: 'Tech Institute — Remote',
-    period: '2023 — 2024',
-    points: [
-      'Contributed reusable components to a shared component library.',
-      'Practiced Git workflow with feature branches and pull-request reviews.',
-    ],
-  },
-]
-
-export const EDUCATION: TimelineItem[] = [
-  {
-    title: 'Higher Secondary Certificate (HSC)',
-    org: 'Ujancha High School, Bancharampur',
-    period: '2022 — 2024',
-    points: ['Science group — focused on mathematics and computer studies.'],
-  },
-  {
-    title: 'Self-taught Frontend Development',
-    org: 'Online courses & open source',
-    period: '2023 — Present',
-    points: [
-      'Completed structured coursework on JavaScript, TypeScript and React.',
-      'Learned by building real projects and reading open-source code.',
-    ],
+    org: 'Freelance — Remote',
+    period: '2025 — Present',
   },
 ]
 
 export const CONTACT_INFO: ContactInfo[] = [
   {
     label: 'Email',
-    value: 'shawrov@example.com',
+    value: PROFILE.contactEmail,
     icon: FaEnvelope,
-    href: 'mailto:shawrov@example.com',
+    href: `mailto:${PROFILE.contactEmail}`,
   },
   {
     label: 'Phone',
-    value: '+880 1XXX-XXXXXX',
+    value: '+880 1619226019',
     icon: FaPhone,
-    href: 'tel:+8801000000000',
+    href: 'tel:+8801619226019',
   },
   {
     label: 'Location',

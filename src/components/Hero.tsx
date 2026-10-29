@@ -1,4 +1,4 @@
-import bannerImg from '../assets/banner.png'
+import heroImg from '../assets/shawrov.png'
 import { PROFILE, SOCIALS, STATS } from '../data/portfolio'
 import type { Skill } from '../types'
 import { SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
@@ -115,7 +115,7 @@ export default function Hero() {
           />
           <div className="animate-float-slow relative rounded-3xl bg-gradient-to-br from-brand-500/60 via-white/10 to-accent-400/60 p-1 shadow-2xl shadow-brand-600/20">
             <img
-              src={bannerImg}
+              src={heroImg}
               alt={`Portrait of ${PROFILE.name}`}
               className="aspect-[4/5] w-full rounded-[calc(1.5rem-4px)] object-cover object-top"
             />

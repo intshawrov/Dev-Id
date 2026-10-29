@@ -47,7 +47,6 @@ export interface TimelineItem {
   title: string
   org: string
   period: string
-  points: string[]
 }
 
 export interface ContactInfo {
