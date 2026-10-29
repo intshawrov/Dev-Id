@@ -1,0 +1,72 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 1690 >>
+stream
+BT 0.1 0.1 0.14 rg
+/F2 24 Tf 72 764 Td (Shawrov) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 12 Tf 72 740 Td (Frontend Developer - React, TypeScript, Tailwind CSS) Tj ET
+BT 0.45 0.45 0.5 rg
+/F1 10 Tf 72 722 Td (shawrov@example.com  |  Dhaka, Bangladesh) Tj ET
+1 G 0.7 w 72 706 m 523 706 l S
+BT 0.1 0.1 0.14 rg
+/F2 13 Tf 72 678 Td (Summary) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 660 Td (Frontend developer who builds fast, responsive, accessible web interfaces) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 646 Td (with React, TypeScript and Tailwind CSS. Placeholder  replace this) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 632 Td (resume.pdf with your real resume.) Tj ET
+BT 0.1 0.1 0.14 rg
+/F2 13 Tf 72 598 Td (Skills) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 580 Td (HTML5, CSS3, JavaScript, TypeScript, React, Vite, Tailwind CSS,) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 566 Td (Responsive Design, Git and GitHub, Figma. Currently learning Node.js) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 552 Td (and testing tools to grow into full-stack work.) Tj ET
+BT 0.1 0.1 0.14 rg
+/F2 13 Tf 72 518 Td (Selected Projects) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 500 Td (E-Commerce Storefront - catalog, cart and checkout flow \(React, Tailwind\)) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 486 Td (Task Manager - drag-and-drop board with local persistence \(React\)) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 472 Td (Weather App - live forecasts with geolocation and animated UI) Tj ET
+BT 0.1 0.1 0.14 rg
+/F2 13 Tf 72 438 Td (Education) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 420 Td (Higher Secondary Certificate \(HSC\) - Science group) Tj ET
+BT 0.1 0.1 0.14 rg
+/F1 11 Tf 72 406 Td (Ujancha High School, Bancharampur \(2022 - 2024\)) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2137
+%%EOF
