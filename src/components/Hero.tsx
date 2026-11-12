@@ -92,7 +92,7 @@ export default function Hero() {
               })}
             </div>
 
-            {/* Stats */}
+            {/* Stats test*/}
             <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-white/10 pt-8">
               {STATS.map((stat) => (
                 <div key={stat.label}>
