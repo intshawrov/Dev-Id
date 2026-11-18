@@ -5,12 +5,15 @@ interface SectionProps {
   id: string
   children: ReactNode
   className?: string
+  /** Optional full-bleed decorative layer painted behind the section content. */
+  background?: ReactNode
 }
 
 /** Page section with consistent max-width container and scroll offset. */
-export default function Section({ id, children, className = '' }: SectionProps) {
+export default function Section({ id, children, className = '', background }: SectionProps) {
   return (
     <section id={id} className={`relative scroll-mt-20 py-20 md:py-28 ${className}`}>
+      {background}
       <div className="mx-auto max-w-[1260px] px-4 sm:px-6">{children}</div>
     </section>
   )

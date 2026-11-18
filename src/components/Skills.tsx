@@ -2,6 +2,7 @@ import { SKILLS } from '../data/portfolio'
 import type { Skill } from '../types'
 import Reveal from './ui/Reveal'
 import Section, { SectionHeading } from './ui/Section'
+import TechAnimation from './TechAnimation'
 
 function SkillTile({ skill, index }: { skill: Skill; index: number }) {
   const Icon = skill.icon
@@ -22,7 +23,31 @@ function SkillTile({ skill, index }: { skill: Skill; index: number }) {
 
 export default function Skills() {
   return (
-    <Section id="skills">
+    <Section
+      id="skills"
+      className="isolate"
+      background={
+        <>
+          {/* Deep navy base */}
+          <div aria-hidden className="absolute inset-0 -z-10 bg-[#050a15]" />
+          {/* Fine dot grid */}
+          <div
+            aria-hidden
+            className="absolute inset-0 -z-10 bg-[radial-gradient(circle,rgba(148,163,184,0.16)_1px,transparent_1px)] [background-size:24px_24px]"
+          />
+          {/* Soft cyan glow behind the animation */}
+          <div
+            aria-hidden
+            className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_55%_60%_at_50%_45%,rgba(34,211,238,0.14),transparent_70%)]"
+          />
+          {/* Vignette that darkens the edges */}
+          <div
+            aria-hidden
+            className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(3,6,14,0.6)_100%)]"
+          />
+        </>
+      }
+    >
       <SectionHeading
         eyebrow="Skills"
         title="My Tech"
@@ -30,11 +55,12 @@ export default function Skills() {
         description="The tools and technologies I use to bring ideas to life on the web."
       />
 
-      <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5">
+      {/* <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5">
         {SKILLS.map((skill, index) => (
           <SkillTile key={skill.name} skill={skill} index={index} />
         ))}
-      </div>
+      </div> */}
+      <TechAnimation />
 
       <Reveal className="mt-8 text-center text-sm text-slate-500">
         ...and always adding more to the list.
